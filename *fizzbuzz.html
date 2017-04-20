@@ -1,0 +1,26 @@
+<!DOCTYPE html >
+<html>
+<body>
+<script type="text/javascript">
+
+
+
+  for(var i=100; i>0; i-=1){
+
+    var mul_3 = i % 3;
+    var mul_5 = i % 5;
+
+    if(mul_3 === 0){
+      console.log("Fizz");
+    }else if(mul_5 === 0){
+      console.log("Buzz");
+    }else if(mul_5 === 0 && mul_3 === 0){
+      console.log("FizzBuzz")
+    }else {
+      console.log(i);
+    }
+  }
+
+</script>
+</body>
+</html>
